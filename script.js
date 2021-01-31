@@ -2,6 +2,7 @@
 
 function start() {
     // $("body").css("background-color","pink");
+    $("#menu a:first").click();
 
 }
 
@@ -18,7 +19,9 @@ function loadpage(e){
     // $(document).li("#nav-link")add("#active") --- Attempt
     $(this).addClass("active");
 
-    $("#content").load("about.html");
+
+    var href = $(this).attr("href");
+    $("#content").load(href);
     
 }
 
