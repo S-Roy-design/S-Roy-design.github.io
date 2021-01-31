@@ -1,7 +1,7 @@
 //we write this function, which will hold all our code and will be called, when the page has considered itself to be fully loaded
 
 function start() {
-    // $("body").css("background-color","pink");
+    //Testing the start function $("body").css("background-color","pink");
     $("#menu a:first").click();
 
 }
