@@ -17,6 +17,8 @@ function loadpage(e){
     //select - the document, find the ul/li that is the id #menu belongs to and add the class active to it
     // $(document).li("#nav-link")add("#active") --- Attempt
     $(this).addClass("active");
+
+    $("#content").load("about.html");
     
 }
 
